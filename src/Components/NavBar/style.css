@@ -1,0 +1,41 @@
+.navbar {
+	overflow: hidden;
+  background-color: #006A99;
+	width: 100%;
+	height: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white
+}
+
+.navbar a {
+	color: white;
+}
+
+.trello-logo {
+	height: 35px;
+}
+
+.left-side {
+	display: flex;
+	align-items: center;
+}
+
+.left-side a {
+	margin-left: 10px;
+	margin-right: 0px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+
+.right-side {
+	display: flex;
+	align-items: center;
+}
+
+.right-side p, a {
+	margin-right: 10px;
+	cursor: pointer;
+}
